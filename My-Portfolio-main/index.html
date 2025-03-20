@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio (Omkar)</title>
+    
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!----Font awesome cdn  font icon css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+   <header class="header">
+        <a href="#home" class="logo"  style="color: #000;">Omkar <span class="logo">Desai</span> </a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+            
+        </nav>
+
+   </header>
+
+   <section class="home" id="home">
+        <div class="home-img">
+                <img src="profile.jpg" alt="Profile Image">
+        </div>
+
+        <div class="home-content">
+            <h3>Hello Myself</h3>
+            <h1>Omkar Desai</h1>
+            <h3><span class="running-text">Software Developer</span></h3>
+            <p>I am a passionate and results-driven Software Developer specializing in Java full-stack development.
+                 Over the past six months, I have gained hands-on experience in designing and implementing scalable web applications using Java, Spring Boot, React.js, and Hibernate (JPA).
+                 My expertise in backend and frontend technologies allows me to create efficient and user-friendly solutions.
+                 I am eager to apply my skills in a professional setting, contribute to innovative projects, and collaborate with dynamic teams to drive technological growth and business success.
+            </p>
+
+            <div class="social-media">
+            <a href="https://www.linkedin.com/in/omkar-desai-0332a2288/"><i class='bx bxl-linkedin'></i></a>
+            <a href="https://github.com/OMAKAR4748"><i class='bx bxl-github'></i></a>
+            <a href="https://www.instagram.com/"><i class='bx bxl-instagram' ></i></a>
+            <a href="https://www.facebook.com/"><i class='bx bxl-facebook'></i></a>
+        </div>
+        <a href="OMKAR_DESAI_MCA_2024.pdf" download="OMKAR_DESAI_MCA_2024.pdf" class="btn">Download CV</a>
+        </div>
+   </section>
+
+   <section class="about" id="about">
+    <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <h3>Software Developer</h3>
+        <p>I am an enthusiastic and driven Software Developer with a strong foundation in Java full-stack development
+            . Over the past 6 months, I have gained hands-on experience with Java, Spring, React.js, and various 
+            web technologies. Additionally, I have worked with JPA (Hibernate) for efficient database management. 
+            My passion for coding and continuous learning has enabled me to design, develop, and maintain robust 
+            and scalable applications. I am eager to apply my technical skills in a professional environment, 
+            contribute to innovative projects, and collaborate with dynamic teams to drive technological advancements 
+            and business success.</p>
+        <a href="#" class="btn">Read More</a>
+    </div>
+    <div class="about-img">
+        <img src="profile.jpg" alt="About Image">
+    </div>
+   </section>
+
+   <section class="section-skills" id="skills">
+    <h1 class="sub-title">
+       
+    </h1>
+    <h1 class="heading1"><span style="color: #000;">Technical</span>  Skills</h1>
+    <div class="container1" id="skill">
+        
+        <div class="Technical-bars">
+            <div class="bar">
+                <img src="html.png" style="height: 40px;">
+                <div class="info">
+                    <p>HTML5</p>
+                </div>
+                <div class="progress-line">
+                    <div class="progress-line html">
+                        <span></span>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="bar">
+                <img src="css-3.png" style="height: 40px;">                <div class="info">
+                 <p>CSS</p>
+                </div>
+                <div class="progress-line css"><span></span></div>
+            </div>
+            <div class="bar">
+                <img src="java-script.png" style="height: 40px;">                <div class="info">
+                    <p>JS</p>
+                </div>
+                <div class="progress-line js">
+                    <span></span>
+                </div>
+            </div>
+           
+            
+        </div>
+    </div>
+
+    <div class="container">
+       
+        <div class="Technical-bars">
+        <div class="bar">
+            <img src="https://i.ibb.co/vCJwDVr3/atom.png" style="height: 40px;">             
+               <div class="info">
+                <P>React JS</P>
+            </div>
+            <div class="progress-line react">
+                <span></span>
+            </div>
+        </div>
+        <div class="bar">
+            <img src="java.png" style="height: 40px;">
+            <div class="info">
+                <p>Java</p>
+            </div>
+            <div class="progress-line java">
+                <span></span>
+            </div>
+        </div>
+        <div class="bar">
+            <img src="icons8-spring-boot-48.png" style="height: 40px;">  
+              
+                      <div class="info">
+                <p>Spring</p>
+            </div>
+            <div class="progress-line spring" >
+                <span></span>
+            </div>
+        </div>
+    </div>
+      
+    </div>
+   </section>
+<!-- Contact Section -->
+<section class="contact" id="contact">
+    <h2 class="heading">Contact <span>Me</span></h2>
+    <div class="contact-container">
+        <form id="contactForm">
+            <div class="input-box">
+                <input type="text" id="name" placeholder="Full Name" required>
+                <input type="email" id="email" placeholder="Email Address" required>
+            </div>
+            <div class="input-box">
+                <input type="text" id="subject" placeholder="Subject" required>
+                <input type="tel" id="phone" placeholder="Phone Number" required>
+            </div>
+            <textarea id="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </div>
+</section>
+   
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+<script>
+    // Toggle mobile menu
+    document.getElementById('menu-icon').addEventListener('click', function () {
+        const navbar = document.querySelector('.navbar');
+        navbar.classList.toggle('active');
+    });
+
+
+  (function(){
+      emailjs.init("L7dKAcGySgv8oZix0"); // Replace with your EmailJS user ID
+  })();
+
+  document.getElementById("contactForm").addEventListener("submit", function(event) {
+      event.preventDefault(); // Prevent default form submission
+
+      // Collect form data
+      const formData = {
+          name: document.getElementById("name").value,
+          email: document.getElementById("email").value,
+          subject: document.getElementById("subject").value,
+          phone: document.getElementById("phone").value,
+          message: document.getElementById("message").value
+      };
+
+      // Send email using EmailJS
+      emailjs.send("service_l71zr1u", "template_teob0v9", formData)
+      .then(function(response) {
+          alert("Message sent successfully!");
+          document.getElementById("contactForm").reset(); // Clear form
+      }, function(error) {
+          alert("Failed to send message. Please try again.");
+      });
+  });
+
+
+</script>     
+</body>
+</html>
